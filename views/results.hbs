@@ -1,0 +1,12 @@
+<h1>Results</h1>
+<ul style="list-style: none;">
+  {{#each results}}
+    <li>
+      ID: {{id}}<br>
+      Name: {{name}}<br>
+      Address: {{address}}<br>
+      Category: {{category}}<br>
+      <a href="/restaurant/{{id}}">More Info</a>
+    </li>
+  {{/each}}
+</ul>
