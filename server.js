@@ -34,6 +34,7 @@ app.get('/restaurant/:id', function(req, res, next) {
   let id = req.params.id;
   db.any(`
     select
+      restaurant.id,
       restaurant.name as restaurant_name,
       restaurant.address,
       restaurant.category,
