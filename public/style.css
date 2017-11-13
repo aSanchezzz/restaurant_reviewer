@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #F1F1ED;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* line-height: 24px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    /*text-align: center;*/
+    letter-spacing: -.05em;
+}
