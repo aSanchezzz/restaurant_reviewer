@@ -1,5 +1,5 @@
 body {
-  background-color: #F1F1ED;
+
 }
 
 p {
@@ -17,7 +17,7 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -.05em;
-  border-top: 5px solid black;
+  /*border-top: 2px solid black;*/
   padding-top: 1em;
 }
 
@@ -27,6 +27,7 @@ h1, h3, h4, h5, h6 {
     font-weight: 600;
     /*text-align: center;*/
     letter-spacing: -.05em;
-    border-bottom: 5px solid black;
-    background-color: rgb(166, 166, 166);
+    color: white;
+    border-bottom: 2px solid black;
+    background-color: rgb(175, 171, 171);
 }
