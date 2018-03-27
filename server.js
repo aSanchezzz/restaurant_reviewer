@@ -39,6 +39,7 @@ app.get('/restaurant/:id', function(req, res, next) {
       restaurant.address,
       restaurant.category,
       reviewer.name as reviewer_name,
+      reviewer.email,
       review.title,
       review.stars,
       review.review
